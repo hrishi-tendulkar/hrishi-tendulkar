@@ -1,6 +1,5 @@
 ## Hi there 👋
 
-<!--
 I’m a product manager at Amazon focused on AI-enable post-purchase customer experience.
 
 My work centers on building products that delight customers while considering operational constraints and business outcomes. I’m known for cutting through ambiguity to define strong product mental models and execution paths, grounded in how products create and capture value.
@@ -36,4 +35,3 @@ They use real problems as the starting point, and AI as a tool to test how diffe
 ## Why GitHub
 
 This space serves as a public workspace — a place to iterate, experiment, and reason through product and system design questions that benefit from being written down and evolved over time.
--->
