@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-I’m a product manager at Amazon focused on AI-enable post-purchase customer experience.
+I’m a product manager at Amazon focused on AI-enabled post-purchase customer experience.
 
 My work centers on building products that delight customers while considering operational constraints and business outcomes. I’m known for cutting through ambiguity to define strong product mental models and execution paths, grounded in how products create and capture value.
 
