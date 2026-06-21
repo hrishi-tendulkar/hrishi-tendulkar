@@ -1,37 +1,40 @@
-## Hi there 👋
+<!-- This is the profile README. Lives at github.com/hrishi-tendulkar/hrishi-tendulkar -->
 
-I’m a product manager at Amazon focused on AI-enabled post-purchase customer experience.
+## Hi, I'm Hrishi 👋
 
-My work centers on building products that delight customers while considering operational constraints and business outcomes. I’m known for cutting through ambiguity to define strong product mental models and execution paths, grounded in how products create and capture value.
+I'm a Product Manager at Amazon working on applied AI for large-scale customer experiences — personalization, search over customer history, and conversational/agentic systems.
 
-This GitHub is a space to explore and document that thinking more openly.
-
----
-
-## What I work on
-
-In my professional role, I lead product strategy and execution across:
-- AI-driven personalization and adaptive content
-- Search over historical and customer-owned data
-- Conversational and agentic experiences
-- Proactive systems that anticipate needs across the customer journey
-
-Much of this work sits at the intersection of AI systems, product design, and real-world constraints.
+This GitHub is where I build and reason in public outside of work. The projects below are real shipped things, each one used to test how product structure, data design, and model choices change what an AI product actually feels like to use.
 
 ---
 
-## What I’m building here
+### 🛠️ What I'm building
 
-Outside of work, I use side projects to explore my ideas hands-on, learn more about the mereging technolgies, and refine my thinking around how to buuild products and businesses.
+Each of these is a real, shipped product — built to test a specific product hypothesis, not to chase distribution. The interesting part is the structure, not the traction.
 
-Current focus:
-- **Home Manager** — an AI-powered home intelligence system designed to help homeowners stay ahead of maintenance and operational decisions by anticipating what needs attention and guiding next actions.
+- **[Job Finder for Teachers](https://github.com/hrishi-tendulkar/Job-Finder)** — A daily-refreshed job feed and one-click application package for K-12 public school teachers in California. Feature-complete, deployed, 4-stage matching pipeline ending in Claude. *Why it exists:* generic job boards don't understand teacher credentials, and generic AI cover-letter tools don't know what "Title I with MTSS" means.
 
-These projects are a combination of product-led exploration and AI experimentation.  
-They use real problems as the starting point, and AI as a tool to test how different system designs, levels of autonomy, and defaults shape the user experience over time.
+- **[Home Manager](https://github.com/hrishi-tendulkar/home-manager-app)** — Personal product I use daily to run my household. Grounded assistant over an actual Category → Service → Visit data model — not a chat over context. *Why it exists:* chat is the last mile of an AI product, not the product.
+
+- **[Interesting Stories](https://github.com/hrishi-tendulkar/interesting-stories)** — One short, true, sourced story per day. Live on the iOS App Store. Built around two constraints that work against engagement metrics: scarcity, and pipeline-layer source enforcement. *Why it exists:* the trust contract around AI content matters more than the generation.
+
+- **[Trading System](https://github.com/hrishi-tendulkar/trading-system)** — A weekly equity-intelligence cockpit I built for my own investing. Single-user by design. AI as evidence compressor, deterministic math as source of truth. *Why it exists:* most tools optimize for research abundance or execution speed; this one is about weekly decision quality.
 
 ---
 
-## Why GitHub
+### 🧭 What I think about
 
-This space serves as a public workspace — a place to iterate, experiment, and reason through product and system design questions that benefit from being written down and evolved over time.
+- **Structure before chat.** A grounded assistant beats a clever one. The schema and the model are co-equal design surfaces.
+- **The trust contract is the product.** Strict sourcing, refusal to silently fall back, calibrated fit labels over false-precision scores.
+- **Volume of features ≠ depth of product.** Cut what hides the wedge. Ship what proves the loop.
+- **Honest UNKNOWNs over fabricated specifics.** True in product docs, true in models.
+
+---
+
+### 📫 Elsewhere
+
+- Portfolio: *(link to portfolio site)*
+- Resume: *(link to resume PDF or page)*
+- LinkedIn: *(link)*
+
+*Source code for the projects above is available on request — reach out via LinkedIn.*
