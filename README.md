@@ -1,33 +1,30 @@
-<!-- This is the profile README. Lives at github.com/hrishi-tendulkar/hrishi-tendulkar -->
+<!-- Profile README — github.com/hrishi-tendulkar/hrishi-tendulkar -->
 
 ## Hi, I'm Hrishi 👋
 
-I'm a Product Manager at Amazon working on applied AI for large-scale customer experiences — personalization, search over customer history, and conversational/agentic systems.
+I'm a Product Manager at Amazon. My work is about applying AI to large-scale customer experiences — personalization, search, and conversational/agentic systems.
 
-This GitHub is where I build and reason in public outside of work. The projects below are real shipped things, each one used to test how product structure, data design, and model choices change what an AI product actually feels like to use.
+This GitHub is where I build outside of work. The projects below are side projects, not businesses. I built them to learn by doing, and to test product ideas I haven't been able to take on at work yet.
 
 ---
 
 ### 🛠️ What I'm building
 
-Each of these is a real, shipped product — built to test a specific product hypothesis, not to chase distribution. The interesting part is the structure, not the traction.
+- **[Job Finder for Teachers](https://github.com/hrishi-tendulkar/Job-Finder)** — A job search app for K-12 public school teachers in California. It pulls openings from district sites every day, scores them against the teacher's credential, grade, subject, and commute, and writes a tailored cover letter and resume for any job in one click. I built it because generic job boards don't understand teaching credentials, and generic AI cover letter tools don't know enough about each school to write something a principal would take seriously.
 
-- **[Job Finder for Teachers](https://github.com/hrishi-tendulkar/Job-Finder)** — A daily-refreshed job feed and one-click application package for K-12 public school teachers in California. Feature-complete, deployed, 4-stage matching pipeline ending in Claude. *Why it exists:* generic job boards don't understand teacher credentials, and generic AI cover-letter tools don't know what "Title I with MTSS" means.
+- **[Home Manager](https://github.com/hrishi-tendulkar/home-manager-app)** — A personal app I use daily to run my own household. It tracks every recurring service (cleaning, lawn, HVAC), every open item in the house (a leaky faucet, gutters to clear), and the receipts behind them. The AI assistant answers things like *"how much have I spent on services this year?"* by reading the actual data, not by guessing. I built it because most home apps quickly turn into a graveyard of stale to-dos, and I wanted to see if better structure underneath would fix that.
 
-- **[Home Manager](https://github.com/hrishi-tendulkar/home-manager-app)** — Personal product I use daily to run my household. Grounded assistant over an actual Category → Service → Visit data model — not a chat over context. *Why it exists:* chat is the last mile of an AI product, not the product.
+- **[Interesting Stories](https://github.com/hrishi-tendulkar/interesting-stories)** — An iOS app that sends you one short, true, sourced story every day on a topic you pick. No feed. No scroll. Live on the App Store. I built it because AI-written content is only worth opening if you trust it — so the whole app is built around one hard rule: every story has to cite at least two real sources before it ships.
 
-- **[Interesting Stories](https://github.com/hrishi-tendulkar/interesting-stories)** — One short, true, sourced story per day. Live on the iOS App Store. Built around two constraints that work against engagement metrics: scarcity, and pipeline-layer source enforcement. *Why it exists:* the trust contract around AI content matters more than the generation.
-
-- **[Trading System](https://github.com/hrishi-tendulkar/trading-system)** — A weekly equity-intelligence cockpit I built for my own investing. Single-user by design. AI as evidence compressor, deterministic math as source of truth. *Why it exists:* most tools optimize for research abundance or execution speed; this one is about weekly decision quality.
+- **[Trading System](https://github.com/hrishi-tendulkar/trading-system)** — A weekly investing workbench I built for myself. Every weekend it gives me a short list of stocks to buy, wait on, hold, or trim, with the reasoning behind each call. AI summarizes earnings, filings, and news; the actual math stays deterministic, so I'm never trusting a model on numbers. I built it because I have a full-time job and limited time on weekends, and wanted one place that gets me to a decision in about 30 minutes.
 
 ---
 
-### 🧭 What I think about
+### 🧭 How I think about building AI products
 
-- **Structure before chat.** A grounded assistant beats a clever one. The schema and the model are co-equal design surfaces.
-- **The trust contract is the product.** Strict sourcing, refusal to silently fall back, calibrated fit labels over false-precision scores.
-- **Volume of features ≠ depth of product.** Cut what hides the wedge. Ship what proves the loop.
-- **Honest UNKNOWNs over fabricated specifics.** True in product docs, true in models.
+- **The structure underneath matters more than the chat on top.** A grounded assistant beats a clever one.
+- **An AI product only works if users trust it.** That means strict sources, honest fallbacks, and not pretending to know things the model doesn't.
+- **Cut more than you add.** Most of the work is deciding what to leave out.
 
 ---
 
