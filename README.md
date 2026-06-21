@@ -22,8 +22,6 @@ This GitHub is where I build outside of work. The projects below are side projec
 
 ### 📫 Elsewhere
 
-- Portfolio: *(link to portfolio site)*
-- Resume: *(link to resume PDF or page)*
 - LinkedIn: [hrishi-tendulkar](https://www.linkedin.com/in/hrishi-tendulkar/)
 
 *Source code for the projects above is private — available on request via LinkedIn.*
